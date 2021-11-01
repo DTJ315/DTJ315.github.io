@@ -1,2 +1,3 @@
 # DTJ315.github.io
-hi
+first update: hi
+second update: Animation
