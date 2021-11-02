@@ -106,6 +106,7 @@ body {
   position: relative;
   align-items: center;
   background-color: transparent;
+  text-decoration: none;
 }
 
 .btn-1:hover {
