@@ -11,6 +11,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-decoration: none;
   }
 
 .glitch {
@@ -105,7 +106,6 @@ body {
   position: relative;
   align-items: center;
   background-color: transparent;
-  text-decoration: none;
 }
 
 .btn-1:hover {
