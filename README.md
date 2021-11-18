@@ -1,6 +1,9 @@
 # DTJ315.github.io
-first update: Website up
-second update: Animation
-third update: cats 
-forth update: cats fix
+1st update: Website up
+<br>
+2nd update: Animation
+<br>
+3rd update: Cats page
+<br>
+4th update: Cats page fix
 
