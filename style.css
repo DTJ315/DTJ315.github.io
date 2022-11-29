@@ -11,7 +11,8 @@
   width:60%;
   margin: 0 auto;
   text-align: center;
-  color: #336699;
+  /*color: #336699;*/
+  color: #ff0000;
   font-family: "Source Code Pro";
 }
 
@@ -25,7 +26,7 @@ body {
     text-decoration: none;
   }
 
-/* this makes the Nav Bar look cool  */
+/* this makes the Nav Bar look cool */
 
 * {
   box-sizing: border-box;
