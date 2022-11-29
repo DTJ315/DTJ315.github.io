@@ -37,14 +37,12 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 5px 10%;
   background-color: #1c1b1b;
 }
 
-.logo-text {
+.logo {
   margin-right: auto;
-  color: #336699;
-  font-family: "Roboto Mono";
 }
 
 .nav__links {
