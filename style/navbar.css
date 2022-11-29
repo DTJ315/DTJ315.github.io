@@ -4,27 +4,6 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-
-
-.def-text {
-  padding-top: 1cm;
-  width:60%;
-  margin: 0 auto;
-  text-align: center;
-  color: #336699;
-  font-family: "Source Code Pro";
-}
-
-/* this makes the background work */
-body { 
-    background: url(./photos/background.svg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-decoration: none;
-  }
-
 /* this makes the Nav Bar look cool */
 
  *{
