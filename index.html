@@ -4,33 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
+    <title>Home Page</title>
 </head>
     <link rel="stylesheet" href="style.css">
+    <!-- Nav Bar HTML Starts Here -->
+    <header>
+        <h1 class="logo-text" href="/">LOGO GOES HERE</h1>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#">Contact</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <!-- Nav Bar HTML Mobile Starts Here -->
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/mobile.js"></script>
+    <!-- Nav Bar HTML Ends Here -->
 
+    <H2 class="def-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        <br>
+        tempor incididunt ut labore et dolore magna aliqua. Diam donec
+        <br>
+        adipiscing tristique risus nec feugiat. Arcu non sodales neque sodales ut
+    </H2>
 </head>
 <body>
-<!-- JumpingPistachio has bean here... -->
+    <!-- Changes Highlight Color -->
+<style media="screen">
+    ::-moz-selection {
+        color: #f8f8ff;
+        background-color: #181818;
+    }
 
-<p class="glitch">
-Welcome to DJ15's website
-</p>
-
-<h1 class="bio">
-    Hi my name is DJ and I like to program in Python, JavaScript, HTML and CSS
-    <br>
-    I also enjoy the patting floofy kitties.
-    <br>
-    I have made this website to lern more about JavaScript, CSS and html 
-    <br>
-    ... I also like food
-</h1>
-
-
-
-<div class="container">
-    <a href="./pages/cats.html" class="btn-1">My Cats</a>
-</div>
-
-
+    ::selection {
+        color: #f8f8ff;
+        background-color: #181818; 
+    }
+</style>
 </body>
